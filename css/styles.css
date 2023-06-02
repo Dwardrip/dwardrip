@@ -37,8 +37,15 @@ p {
 }
 
 
-.about-header {
+.content-section {
     text-align: center;
+    margin-top: 100px;
+}
+
+.content-section h3 {
+    font-size: 24px;
+    line-height: 2;
+    font-family: var(--font-header);
 }
 
 .navigations-links {
@@ -111,7 +118,9 @@ p {
     background: #f5f2fe;
   }
 
-
+.footer {
+  padding: 30px 30px; 
+}
 
 
 
@@ -121,5 +130,7 @@ p {
 
 
 @media (max-width: 900px) {
+
+  
 
 }
