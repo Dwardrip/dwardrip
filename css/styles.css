@@ -79,6 +79,7 @@ p {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: var(--extra-color);
+    text-align: center;  
   }
   
   .portfolio-link:hover {
