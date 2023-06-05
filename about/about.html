@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2fd84ebfdd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
     <title>Front-end Developer - Danielle Wardrip</title>
 </head>
@@ -30,7 +31,7 @@
   <div class="container">
   <nav class="d-flex justify-content-between">
     
-            <img src="/Images/DW-logo.png" alt="DW-logo" class="logo " title="Danielle Wardrip">
+             <a href="/index.html"><img src="/Week 5/Images/DW-logo.png" alt="DW-logo" class="logo " title="Danielle Wardrip"></a>
             
             <ul>
                 <li class="active"><a href="/" title="Homepage">Homepage</a></li>
@@ -44,7 +45,7 @@
 
    <div class="container about-header">
     <div class="row">
-<div class="col-6">
+<div class="col-md-6">
    
     <h1>Hi I'm Danielle Wardrip</h1>
     <h2>Front-end Developer, based in Belgium</h2>
@@ -64,25 +65,40 @@
       Working under pressure and adhere to strict deadlines is also no problem.
     </p>
     
-    <a href="/Portfolio/portfolio.html" class="btn btn-branding portfolio-link">See my Portfolio</a>
+    <a href="/Portfolio/portfolio.html" class="btn btn-branding portfolio-link text-center mb-5">See my Portfolio</a>
 </div>
 <div class="col-lg-6">
 
-  <img src="/Images/Danielle.jpg" alt class="img-fluid rounded"   title="Profile Picture Danielle Wardrip">
+  <img src="/Images/Danielle.jpg" alt class="img-fluid rounded md-5"   title="Profile Picture Danielle Wardrip">
  </div>
 </div>
 </div> 
     
-    <footer>
-  <div class="contact-box mt-5">
-    <h3>Work Inquiry</h3>
-    <p>Let's work together!</p>
+    <div class="container">
+      <footer>
+        <div class="d-flex justify-content-center inquiry-box">
+          <div>
+                <h4>Work Inquiry</h4>
+                <span>
+                  <p class="text-muted">Let's work together !</p>
+                </span>
+              </div>
+            </div>
     
-    <div class="text-center mt-1">
-      <a href="mailto:dwardrip@outlook.com" class="btn btn-branding contact-button" title="Contact Danielle">Contact Me</a>
-    </div>    
-  </div>
-</div>
-</footer>
+        <div>
+          <a href="/about/contact.html" class="btn btn-branding contact-button d-flex justify-content-center mb-5" title="Contact Danielle Wardrip" >Contact Me</a>
+        </div>
+        
+        <div class="d-flex justify-content-center ">
+        <a href="mailto:dwardrip@outlook.com" class="email-link" title="Email Danielle Wardrip">dwardrip@outlook.com</a>
+        </div>
+    
+        <div class="icons d-flex justify-content-center">
+          <a href="https://www.instagram.com/wardripdanielle" target="_blank" title="Instagram Danielle Wardrip"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/Daniell30947655" target="_blank" title="Twitter Danielle Wardrip"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://github.com/Dwardrip" target="_blank" title="Github Danielle Wardrip"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </footer>
+    </div>   
 </body>
 </html>
